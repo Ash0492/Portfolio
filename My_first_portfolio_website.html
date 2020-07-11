@@ -1,0 +1,151 @@
+<DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> My Portfolio </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="portfolio_css/lightbox.css">
+         <link rel="stylesheet" href="portfolio_css/portfolio.css">
+         
+         
+    </head>
+
+    <body>
+        <header> 
+            <div class="logo"> 
+                <img src = "img/logo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Introduction-->
+        <section class="intro" id ="home"> 
+            <h1 class="section__title section__title--intro" > 
+                 Hi! I am <strong>Abhishek Gogoi</strong>            
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"> Motorcycle concept Designer </p>
+            <img src="img/cheese_01.png" alt="My smiling picture" class="intro__img"> 
+        </section>
+
+        <!--My Services-->
+        <section class="my-services" id="services"> 
+            <h2 class="section__title section__title--services"> What I do </h2>
+                <div class="services"> 
+                    <div class="service" class="intro__img"> 
+                        <!-- <h3>Design+development </h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> {% endcomment %}
+                        -->
+                        <img src=img/cheese_16.jpg  />
+                    </div> 
+                    <!--service-->
+                    <div class="service" class="intro__img"> 
+                      <!--  <h3>E-Commerce </h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> -->
+                        <img style="height:100%" src="img/cheese_14.jpg">
+                    </div> <!--service-->
+                    <div class="service" class="intro__img"> 
+                       <!-- <h3>WordPress </h3>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> -->
+                        <img  src="img/cheese_17.jpg">
+                    </div> <!--service-->
+                </div><!--services-->
+
+                <a href="#work" class="btn"> MY WORK </a>
+        </section>
+
+        <!--About Me-->
+        <section class="about-me" id="about">           
+            <h2 class="section__title section__title--about"> Who am I </h2>
+            <p class="section__subtitle section__subtitle--about"> Motorcycle concept Designer </p> 
+
+            <div class="about-me__body"> 
+                <p> "I normally love riding and driving, basically anything on tires with cool alloys. Deep Inside I want to create havoc in the motorcycle world with my sketches!" </p>
+                <p> PS: I spend half my income on buildng miniature models - especially if it's a Ducati. </p>
+            </div>
+            <img style="height:120%; max-width:150%" src="img/what_I_do.jpg" alt="Ash chilling" class="about-me__img"> 
+        </section>
+
+        <!--My Work-->
+        <section class= "my-work" id="work">
+            <h2 class="section__title section__title--work">My Work </h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work </p>
+            <div class="portfolio"> 
+                <!--portfolio item 01-->
+                <a href="img/cheese_18.jpg" class="portfolio__item"  data-lightbox="gallery"> 
+                 <img src="img/cheese_18.jpg" alt="Ash thinking" class="portfolio__img " >
+                 </a>
+
+                  <!--portfolio item 02-->
+                <a href="img/cheese_19.jpg" class="portfolio__item" data-lightbox="gallery" > 
+                 <img src=" img/cheese_19.jpg" alt="Ash thinking" class="portfolio__img ">
+                 </a>
+
+                  <!--portfolio item 03-->
+                <a href="img/cheese_20.jpg" class="portfolio__item" > 
+                 <img src=" img/cheese_20.jpg" alt="Ash thinking" class="portfolio__img" data-lightbox="gallery">
+                 </a>
+
+                  <!--portfolio item 04-->
+                <a href="img/cheese_21.jpg" class="portfolio__item" > 
+               <img src= "img/cheese_21.jpg" alt="Ash thinking" class="portfolio__img" data-lightbox="gallery"> 
+                 </a>
+
+                  <!--portfolio item 05-->
+                <a href="img/cheese_22.jpg" class="portfolio__item" data-lightbox="gallery" > 
+                 <img src=" img/cheese_22.jpg" alt="Ash thinking" class="portfolio__img ">
+                 </a>
+
+                  <!--portfolio item 06-->
+                <a href="img/cheese_23.jpg" class="portfolio__item" data-lightbox="gallery"> 
+                 <img src=" img/cheese_23.jpg" alt="Ash thinking" class="portfolio__img">
+                 </a>
+                 <a href="img/cheese_24.jpg" class="portfolio__item" data-lightbox="gallery"> 
+                 <img src=" img/cheese_24.jpg" alt="Ash thinking" class="portfolio__img" >
+                 </a>
+                 <a href="img/cheese_10.png" class="portfolio__item" data-lightbox="gallery" > 
+                 <img src=" img/cheese_10.png" alt="Ash thinking" class="portfolio__img " >
+                 </a>
+                 <a href="img/cheese_11.png" class="portfolio__item" data-lightbox="gallery"> 
+                 <img src=" img/cheese_11.png" alt="Ash thinking" class="portfolio__img ">
+                 </a>
+                 <a href="img/cheese_12.png" class="portfolio__item" data-lightbox="gallery" > 
+                 <img src="img/cheese_12.png" alt="Ash thinking" class="portfolio__img ">
+                 </a>
+                 <a href="img/cheese_13.png" class="portfolio__item" data-lightbox="gallery" > 
+                 <img src="img/cheese_13.png" alt="Ash thinking" class="portfolio__img ">
+                 </a>
+            </div>
+        </section>
+
+          <!--footer-->
+        <footer class="footer"> 
+            <a href="mailto:ash0492@gmail.com" class="footer__link">abhishek1098@gmail.com </a>
+            <ul class="social-list">
+                <li class="social-list__item"> <a class="social-list__link" href="https://www.facebook.com/abhishek.412"> <i class="fab fa-facebook-square"></i></a></li>
+                <li class="social-list__item"> <a class="social-list__link" href="https://www.behance.net/abhishek_412/projects"> <i class="fab fa-behance-square"></i>
+
+</a></li>
+                <li class="social-list__item"> <a class="social-list__link" href="https://www.instagram.com/abhishek_gogoi/"> <i class="fab fa-instagram"></i></a></li>
+              <!-- <li class="social-list__item"> <a class="social-list__link" href="https://github.com"> d</a></li>
+            </ul> -->
+        </footer>
+
+        <script type="text/javascript" src="portfolio_js/portfolio.js"></script>
+        <script type="text/javascript" src="portfolio_js/lightbox.min.js"></script>
+        <script type="text/javascript" src="portfolio_js/lightbox.js"></script>
+        <script type="text/javascript" src="portfolio_js/lightbox-plus-jquery.js"></script>
+        
+    </body>
+</html>
